@@ -1,4 +1,4 @@
-# [Storage](/storage/)
+# Storage
 
 ## S3 Storage
 
