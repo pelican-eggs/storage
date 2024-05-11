@@ -1,9 +1,9 @@
-# [Storage](/storage/)
+# Storage
 
 ## S3 Storage
 
-* [minio](/storage/minio)
+* [minio](/minio)
 
 ## SFTP Storage Share ("Empty Egg")
 
-* [SFTP Storage Share](/storage/sftp_storage_share)
+* [SFTP Storage Share](/sftp_storage_share)
