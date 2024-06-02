@@ -1,12 +1,13 @@
 {
-    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PANEL",
     "meta": {
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2023-01-27T18:29:17+00:00",
+    "exported_at": "2024-06-02T14:32:01+00:00",
     "name": "SFTP Storage Share",
     "author": "rehlmgaming@gmail.com",
+    "uuid": "da18f51c-2922-4105-aeca-47e1a543cafb",
     "description": "A simple \"empty\" egg that acts as a private SFTP storage share by utilizing Pterodactyl's built in SFTP system for servers. Sub-users can be added to the server by the owner to allow additional people to access the share. \"Starting\" the server performs no actions and it should be left off.",
     "features": null,
     "docker_images": {

@@ -1,12 +1,13 @@
 {
-    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PANEL",
     "meta": {
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2022-10-07T04:56:20-04:00",
+    "exported_at": "2024-06-02T14:32:00+00:00",
     "name": "Minio S3",
     "author": "accounts@bofanodes.io",
+    "uuid": "47f32d80-860a-4c7a-81ec-57a1f9cc0386",
     "description": "MinIO is a cloud storage server compatible with Amazon S3, released under Apache License v2. As an object store, MinIO can store unstructured data such as photos, videos, log files, backups and container images. The maximum size of an object is 5TB.",
     "features": null,
     "docker_images": {
@@ -36,6 +37,7 @@
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|in:normal,rotate,update",
+            "sort": null,
             "field_type": "text"
         }
     ]
