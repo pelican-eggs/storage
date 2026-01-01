@@ -1,0 +1,59 @@
+_comment: 'DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PANEL'
+meta:
+  version: PLCN_v3
+  update_url: 'https://raw.githubusercontent.com/pelican-eggs/storage/refs/heads/main/minio/egg-minio-s3.yaml'
+exported_at: '2026-01-01T20:48:41+00:00'
+name: 'Minio S3'
+author: accounts@bofanodes.io
+uuid: 47f32d80-860a-4c7a-81ec-57a1f9cc0386
+description: |-
+  MinIO is a cloud storage server compatible with Amazon S3, released under Apache License v2. As an
+  object store, MinIO can store unstructured data such as photos, videos, log files, backups and
+  container images. The maximum size of an object is 5TB.
+image: 'data:image/png;base64,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'
+tags: {  }
+features: {  }
+docker_images:
+  Debian: 'ghcr.io/pelican-eggs/yolks:debian'
+file_denylist: {  }
+startup_commands:
+  Default: ./minio.sh
+config:
+  files: {  }
+  startup:
+    done: 'Docs:'
+  logs: {  }
+  stop: ^C
+scripts:
+  installation:
+    script: |-
+      #!/bin/bash
+      cd /mnt/server
+      ARCH=$([[ "$(uname -m)" == "x86_64" ]] && echo "amd64" || echo "arm64")
+      wget https://dl.min.io/server/minio/release/linux-${ARCH}/minio
+      chmod +x minio
+      mkdir data
+      mkdir keys
+
+      wget https://raw.githubusercontent.com/pelican-eggs/storage/refs/heads/main/minio/minio.sh
+      chmod +x minio.sh
+      export MINIO_ACCESS_KEY=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+      echo $MINIO_ACCESS_KEY > keys/key.txt
+      export MINIO_SECRET_KEY=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+      echo $MINIO_SECRET_KEY > keys/secret.txt
+      echo done
+    container: 'ghcr.io/pelican-eggs/installers:debian'
+    entrypoint: bash
+variables:
+  -
+    sort: 1
+    name: 'Startup Type'
+    description: 'normal,rotate,update'
+    env_variable: STARTUP_TYPE
+    default_value: normal
+    user_viewable: true
+    user_editable: true
+    rules:
+      - required
+      - string
+      - 'in:normal,rotate,update'
