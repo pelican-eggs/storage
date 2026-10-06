@@ -1,8 +1,8 @@
 _comment: 'DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PANEL'
 meta:
   version: PLCN_v3
-  update_url: 'https://raw.githubusercontent.com/pelican-eggs/storage/refs/heads/main/sftp_storage_share/egg-s-f-t-p-storage-share.yaml'
-exported_at: '2026-01-01T20:56:28+00:00'
+  update_url: 'https://raw.githubusercontent.com/pelican-eggs/storage/refs/heads/main/sftp_storage_share/egg-sftp-storage-share.yaml'
+exported_at: '2026-10-06T20:56:28+00:00'
 name: 'SFTP Storage Share'
 author: red_thirten@yahoo.com
 uuid: da18f51c-2922-4105-aeca-47e1a543cafb
@@ -14,7 +14,7 @@ image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAREAAAERCAYAAABclJOOAAAQAE
 tags: {  }
 features: {  }
 docker_images:
-  Alpine: 'ghcr.io/pelican-eggs/yolks:alpine'
+  Alpine: 'alpine'
 file_denylist: {  }
 startup_commands:
   Default: |-
@@ -32,7 +32,7 @@ config:
   stop: ^C
 scripts:
   installation:
-    script: '# Pterodactyl SFTP Storage Share Egg ~ David Wolfe (Red-Thirten) ~ 2023-01-27'
-    container: 'ghcr.io/pelican-eggs/installers:alpine'
+    script: '# Pelican SFTP Storage Share Egg ~ David Wolfe (Red-Thirten) ~ 2023-01-27'
+    container: 'alpine'
     entrypoint: ash
 variables: {  }

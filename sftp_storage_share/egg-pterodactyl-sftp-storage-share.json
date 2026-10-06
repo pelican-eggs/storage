@@ -4,13 +4,13 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2026-01-01T20:57:44+00:00",
+    "exported_at": "2026-10-06T20:56:28+00:00",
     "name": "SFTP Storage Share",
     "author": "red_thirten@yahoo.com",
     "description": "A simple \"empty\" egg that acts as a private SFTP storage share by utilizing Pterodactyl's built in SFTP system for servers. Sub-users can be added to the server by the owner to allow additional people to access the share. \"Starting\" the server performs no actions and it should be left off.",
     "features": null,
     "docker_images": {
-        "Alpine": "ghcr.io\/pelican-eggs\/yolks:alpine"
+        "Alpine": "alpine"
     },
     "file_denylist": [],
     "startup": "echo -e \"\\n\\n\\033[0;31mThere is no need to start this server. The SFTP service is always running. Feel free to stop the server now.\\n\\t\\033[0;36m(Sub-users can be added via the Users tab to add\/remove access to the share in real time)\\n\\n\"",
