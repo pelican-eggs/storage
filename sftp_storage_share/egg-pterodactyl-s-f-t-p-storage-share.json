@@ -7,7 +7,7 @@
     "exported_at": "2026-01-01T20:57:44+00:00",
     "name": "SFTP Storage Share",
     "author": "red_thirten@yahoo.com",
-    "description": "A simple \"empty\" egg that acts as a private SFTP storage share by utilizing Pelican's built in SFTP system for servers. Sub-users can be added to the server by the owner to allow additional people to access the share. \"Starting\" the server performs no actions and it should be left off.",
+    "description": "A simple \"empty\" egg that acts as a private SFTP storage share by utilizing Pterodactyl's built in SFTP system for servers. Sub-users can be added to the server by the owner to allow additional people to access the share. \"Starting\" the server performs no actions and it should be left off.",
     "features": null,
     "docker_images": {
         "Alpine": "ghcr.io\/pelican-eggs\/yolks:alpine"
@@ -24,7 +24,7 @@
         "installation": {
             "container": "alpine",
             "entrypoint": "ash",
-            "script": "# Pelican SFTP Storage Share Egg ~ David Wolfe (Red-Thirten) ~ 2023-01-27"
+            "script": "# Pterodactyl SFTP Storage Share Egg ~ David Wolfe (Red-Thirten) ~ 2023-01-27"
         }
     },
     "variables": []
