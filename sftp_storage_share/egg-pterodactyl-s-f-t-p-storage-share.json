@@ -22,9 +22,9 @@
     },
     "scripts": {
         "installation": {
-            "script": "# Pterodactyl SFTP Storage Share Egg ~ David Wolfe (Red-Thirten) ~ 2023-01-27",
-            "container": "ghcr.io\/pelican-eggs\/installers:alpine",
-            "entrypoint": "ash"
+            "container": "alpine",
+            "entrypoint": "ash",
+            "script": "# Pterodactyl SFTP Storage Share Egg ~ David Wolfe (Red-Thirten) ~ 2023-01-27"
         }
     },
     "variables": []
