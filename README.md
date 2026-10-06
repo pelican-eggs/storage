@@ -3,6 +3,7 @@
 ## S3 Storage
 
 * [minio](/minio)
+* [RustFS](/rustfs)
 
 ## SFTP Storage Share ("Empty Egg")
 
